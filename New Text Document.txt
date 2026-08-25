@@ -1,0 +1,43 @@
+/**
+2
+ * You can edit, run, and share this code.
+3
+ * play.kotlinlang.org
+4
+ */
+5
+fun main() {
+6
+    println("Nguyen Minh Nghia");
+7
+    println("2415053122129");
+8
+    println("24T1");
+9
+    println("Lop HP :126TLTTD02");
+10
+    println("Diem A");
+11
+    val toan = 10
+12
+    val van = 8
+13
+    val anh = 8
+14
+    val tb= (toan+van+anh)/3.0
+15
+    println("Diem trung binh:%.2f".format(tb))
+16
+    if(tb>5){
+17
+        println("Diem trung binh lon hon 5")
+18
+    }
+19
+    else {
+20
+        println("Diem trung binh nho hon 5")
+21
+    }
+22
+}
