@@ -1,0 +1,27 @@
+fun main() {
+    println("Nguyễn Minh Nghĩa");
+    println("2415053122129");
+    println("24T1");
+    println("Lớp HP :126TLTTD02");
+    println("Điểm A");
+   	val toan = 10
+    val van = 8
+    val anh = 8
+    val tb= (toan+van+anh)/3.0
+    val tong= toan+van+anh
+    println("Tổng điểm 3 môn là: $tong")
+    println("Điểm trung bình là :%.2f".format(tb))
+    if (toan >= van && toan >= anh) {
+        println("Môn Toán cao nhất: $toan")
+    } else if (van >= toan && van >= anh) {
+        println("Môn Văn cao nhất: $van")
+    } else {
+        println("Môn Anh cao nhất: $anh")
+    }
+    if(tb>=5){
+        println("Diem trung binh lon hon 5, sinh vien dat ")
+    }
+    else {
+        println("Diem trung binh nho hon 5, sinh vien khong dat")
+    }
+}
